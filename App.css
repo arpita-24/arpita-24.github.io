@@ -1,0 +1,219 @@
+:root {
+  --white: #fff;
+  --new-pink: #ff80ff;
+  --new-dark: rgba(255,255,255,0);
+  --new-blue: #7fc9fa;
+  --new-hover-red: #f63601;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ********************** NAVBAR *********************** */
+
+nav{
+  z-index: 2;
+}
+.logo{
+  width: 5.25rem;
+}
+
+/* ********* MENU LINKS ************ */
+
+Router nav a.nav-link Link{
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+}
+Router nav ul li Link{
+  text-transform: uppercase;
+  
+}
+.nav-item , .nav-link {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--white) !important;
+  text-decoration: none;
+  display: inline-block;
+  padding: .01rem; 
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  
+}
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 4.5rem !important;
+}
+
+.nav-link::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: var(--new-pink);
+  transition: .3s linear;
+  z-index: -1;
+}
+.nav-link:hover::before{
+  width: 100%;
+  left: 0;
+}
+.nav-link:hover{
+  color: black !important;
+}
+
+/* ********************** HEADER *********************** */
+
+.header-wrapper{
+  position: relative;
+  background: url(react-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 86.5vh;
+}
+
+.main-info{
+  display: flex;
+  width: 100%;
+  top: 0; right: 0; left: 0; bottom: 0;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+
+.main-info h1{
+  color: var(--white);
+  text-transform: uppercase;
+  
+}
+
+/* ********************** TYPED *********************** */
+.typed-text{
+  font-size: 1rem;
+  color: rgb(158, 255, 250);
+}
+
+/* ********************** MAIN OFFER BUTTON  *********************** */
+.btn-main-offer{
+  border: 1px solid var(--new-blue) ;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--white);
+  margin: 2rem;
+}
+
+.btn-main-offer:hover{
+  color: rgb(218, 255, 51);
+}
+
+/* ********************** PARTICLE JS *********************** */
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* ************* SKILL SECTION -> ABOUT ME PAGE ************* */
+
+.about{
+  text-align: center;
+}
+.about> h1{
+  background-color: rgb(76, 71, 71);
+  color: white;
+  display: inline;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+}
+.about>h2{
+  margin-top: 5rem;
+}
+.skill{
+  display: flex;
+  flex-direction: column;
+}
+
+.skill, .skill-list{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.list-item{
+  background-color: #282c34;
+  color: white;
+  padding: .5rem 2rem;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  border-top: .2rem solid #ff80ff;
+  box-shadow: .4rem .4rem 17px .1px #0707074c;
+  border-radius: .3rem;
+  
+}
+
+/* WORK */
+
+.work
+{
+  text-align: center;
+  margin: 4rem;
+}
+.box
+{
+  margin: 2rem;
+}
