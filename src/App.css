@@ -71,23 +71,19 @@ Router nav ul li Link{
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--white) !important;
-  border-top: 0.1875rem solid var(--new-dark);
+  text-decoration: none;
   display: inline-block;
-  padding: .1rem;
+  padding: .01rem; 
   cursor: pointer;
   position: relative;
   overflow: hidden;
   z-index: 0;
-  margin-top: 1rem;
+  
 }
 .navbar-brand{
     max-width: 17.25rem;
     padding: 0 !important;
     height: 4.5rem !important;
-}
-
-Link:active{
-  border-top: 0.1875rem solid var(--new-pink) ;
 }
 
 .nav-link::before{
@@ -166,4 +162,58 @@ Link:active{
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+/* ************* SKILL SECTION -> ABOUT ME PAGE ************* */
+
+.about{
+  text-align: center;
+}
+.about> h1{
+  background-color: rgb(76, 71, 71);
+  color: white;
+  display: inline;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+}
+.about>h2{
+  margin-top: 5rem;
+}
+.skill{
+  display: flex;
+  flex-direction: column;
+}
+
+.skill, .skill-list{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.list-item{
+  background-color: #282c34;
+  color: white;
+  padding: .5rem 2rem;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  border-top: .2rem solid #ff80ff;
+  box-shadow: .4rem .4rem 17px .1px #0707074c;
+  border-radius: .3rem;
+  
+}
+
+/* WORK */
+
+.work
+{
+  text-align: center;
+  margin: 4rem;
+}
+.box
+{
+  margin: 2rem;
 }

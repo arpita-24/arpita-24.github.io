@@ -7,7 +7,7 @@ import Header from "./pages/Header";
 // eslint-disable-next-line
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
 // eslint-disable-next-line
-import AboutMe from "./pages/AboutMe";
+import AboutMe from "./pages/AboutMe"; 
 import Achievements from "./pages/Acheivements";
 import ContactMe from "./pages/ContactMe";
 import Projects from "./pages/Projects";
