@@ -1,0 +1,77 @@
+:root{
+    --common:rgb(116, 46, 116);
+}
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+/*********************** ABOUT ME *********************************/
+
+.about{
+    margin: 2rem;
+    padding-top: 2rem;
+}
+.about .education
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+}
+
+.about .education .box{
+    flex: 1 1 10rem;
+    height: 16rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .3);
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.about .education .box .image{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    position: absolute;
+    top: -100%; left: 0;
+}
+.about .education .box .content{
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+}
+.about .education .box .content h3{
+    font-size: 2.5rem;
+    color: #333;
+}
+.about .education .box .content p{
+    font-size: 1rem;
+    color: #666;
+    padding: 0.5rem 0;
+}
+.about .education .box .content .marks{
+    font-size: 1.5rem;
+    color: rgb(150, 29, 29);
+    padding: 0.5rem 0;
+    font-weight: bolder;
+}
+.about .education .box:hover .image{
+    top: 0;
+}
+.about .education .box:hover .content{
+    transform: translateY(140%);
+}
+
+/*******************************SKILL**********************************/
+
+.about .skill {
+    padding-top: 2rem;
+}
