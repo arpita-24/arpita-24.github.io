@@ -1,5 +1,5 @@
 import './pages.css';
-const AboutMe = () => {
+const AboutMe = () => { 
     return(
         <div className="about">
             <h1>ABOUT ME</h1>
