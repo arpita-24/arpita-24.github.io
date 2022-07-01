@@ -28,7 +28,7 @@
 
 .about .education .box{
     flex: 1 1 10rem;
-    height: 16rem;
+    height: 15rem;
     position: relative;
     overflow: hidden;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -46,21 +46,23 @@
 .about .education .box .content{
     text-align: center;
     background-color: #fff;
-    padding: 2rem;
+    padding: 1.5rem;
+    margin-top: 10%;
 }
 .about .education .box .content h3{
     font-size: 2.5rem;
     color: #333;
+    margin-top: 10%;
 }
 .about .education .box .content p{
     font-size: 1rem;
     color: #666;
-    padding: 0.5rem 0;
+    padding: .01rem;
 }
 .about .education .box .content .marks{
-    font-size: 1.5rem;
-    color: rgb(150, 29, 29);
-    padding: 0.5rem 0;
+    font-size: 1.4rem;
+    color: rgb(233, 29, 212);
+    padding: 0.2rem 0.4;
     font-weight: bolder;
 }
 .about .education .box:hover .image{

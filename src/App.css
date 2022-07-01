@@ -164,13 +164,23 @@ Router nav ul li Link{
   z-index: 1;
 }
 
+/* ABOUT */
+
+.about
+{
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 /* ************* SKILL SECTION -> ABOUT ME PAGE ************* */
 
 .about{
   text-align: center;
 }
 .about> h1{
-  background-color: rgb(76, 71, 71);
+  background-color: #282c34;
+  ;
   color: white;
   display: inline;
   padding: 1rem;
@@ -210,10 +220,56 @@ Router nav ul li Link{
 
 .work
 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   margin: 4rem;
 }
-.box
+.box-work
 {
-  margin: 2rem;
+  border-radius: 10rem;
+  margin-left: 14%;
+  margin-top: 3rem;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 74%;
+  border: 1rem solid #282c34 ;
 }
+
+.work-head
+{
+  padding-right: 20%;
+  padding-left: 20%;
+  font-size: 1.5rem;
+  color: rgb(104, 24, 101);
+  text-shadow: .1rem .2rem .3rem #ffffff;
+}
+
+.box-work:hover
+{
+  background-image: linear-gradient(rgb(251, 150, 234),purple);
+  color: white;
+  transition: .1s ease-in;
+}
+
+.info
+{
+  padding-right: 20%;
+  padding-left: 20%;
+  text-align: center;
+  margin-top:3rem;
+}
+
+.sub-heading
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  margin: 3rem;
+  font-weight:bolder;
+  color: #282c34;
+ 
+  text-shadow: .1rem .2rem .3rem #ff76ef;
+}
+
+
+
+

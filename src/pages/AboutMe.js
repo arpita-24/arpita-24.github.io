@@ -3,7 +3,7 @@ const AboutMe = () => {
     return(
         <div className="about">
             <h1>ABOUT ME</h1>
-            <h2>EDUCATION</h2>
+            <h2 className='sub-heading'>EDUCATION</h2>
             <section className="education">
             
                 <div className="box">
@@ -35,7 +35,7 @@ const AboutMe = () => {
             <section className="skill">
             
                 
-                <h2>SKILLS</h2>
+                <h2 className='sub-heading'>SKILLS</h2>
                 <ul className='skill-list'>
                     <li className='list-item'>Web Development Skills</li>
                     <li className='list-item'>Programming Skills</li>
@@ -48,18 +48,18 @@ const AboutMe = () => {
             <section className="work">
             
                 
-                <h2>WORK</h2>
-                <div className="box">
-                    <h5><b>Contact Manager System</b></h5>
-                    <p>A system created using <b>MEAN Stack</b>, which facilitates addition, deletion, updation of a person's contacts and their details. A user who has registered, can login and store his/her contacts' list along with their details.</p>
+                <h2 className='sub-heading'>WORK</h2>
+                <div className="box-work">
+                    <h5 className='work-head'><b>Contact Manager System</b></h5>
+                    <p className='info'>A system created using <b>MEAN Stack</b>, which facilitates addition, deletion, updation of a person's contacts and their details. <hr></hr> A user who has registered, can login and store his/her contacts' list along with their details.</p>
                 </div>
-                <div className="box">
-                    <h5><b>Food Ordering Web App</b></h5>
-                    <p>A landing page of a food ordering web app, created using <b>HTML,CSS, & JS</b>.</p>
+                <div className="box-work">
+                    <h5 className='work-head'><b>Food Ordering Web App</b></h5>
+                    <p className='info'>A landing page of a food ordering web app, created using <b>HTML,CSS, & JS</b>.</p>
                 </div>
-                <div className="box">
-                    <h5><b>Online e-exam Portal</b></h5>
-                    <p>A full fleged web app, created using <b>HTML,CSS, JS and PHP</b>. It allows a student to login and appear online quizzes for any subject. It allows a faculty, after proper login credentials, to prepare questions. The portal also facilitates discussion of queries regarding different subjects.</p>
+                <div className="box-work">
+                    <h5 className='work-head'><b>Online e-exam Portal</b></h5>
+                    <p className='info'>A full fleged web app, created using <b>HTML,CSS, JS and PHP</b>. It allows a student to login and appear online quizzes for any subject. <hr></hr> It allows a faculty, after proper login credentials, to prepare questions. The portal also facilitates discussion of queries regarding different subjects.</p>
                 </div>
             
             </section>
